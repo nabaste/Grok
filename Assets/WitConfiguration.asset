@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 0}
+    name: xrhackathon
+    id: 303796441563133
+    lang: en
+    isPrivate: 0
+    createdAt: 2021-11-14T11:56:49-0800
+  configId: fb21c895fc20a48f5972e1a52a190422
+  clientAccessToken: BT5DRBACC4JUR7LIAZ5E6ABJIBBH3IJT
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1248096205657749
+    name: color
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: blue
+      synonyms:
+      - blue
+    - keyword: green
+      synonyms:
+      - green
+    - keyword: purple
+      synonyms:
+      - purple
+    - keyword: red
+      synonyms:
+      - red
+    - keyword: white
+      synonyms:
+      - white
+    - keyword: yellow
+      synonyms:
+      - yellow
+  - witConfiguration: {fileID: 11400000}
+    id: 631257908249992
+    name: shape
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: capsule
+      synonyms:
+      - capsule
+    - keyword: cube
+      synonyms:
+      - cube
+    - keyword: cylinder
+      synonyms:
+      - cylinder
+    - keyword: sphere
+      synonyms:
+      - sphere
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 2783362428622921
+    name: change_color
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 590565322215665
+      name: color:color
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 618955652875715
+      name: shape:shape
+      lookups: []
+      roles: []
+      keywords: []
+  traits: []
