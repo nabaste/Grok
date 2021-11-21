@@ -45,3 +45,6 @@ sysinfo.txt
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Logs #
+*.log
