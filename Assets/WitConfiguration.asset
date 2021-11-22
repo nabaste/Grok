@@ -23,6 +23,72 @@ MonoBehaviour:
   clientAccessToken: BT5DRBACC4JUR7LIAZ5E6ABJIBBH3IJT
   entities:
   - witConfiguration: {fileID: 11400000}
+    id: 753890378810243
+    name: End
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: Grok
+      synonyms:
+      - grok
+  - witConfiguration: {fileID: 11400000}
+    id: 931843190750967
+    name: Object
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: alarm
+      synonyms:
+      - alarm
+    - keyword: laptop
+      synonyms:
+      - laptop
+      - typing
+    - keyword: pencil
+      synonyms:
+      - pencil
+      - scribbling
+      - writing
+  - witConfiguration: {fileID: 11400000}
+    id: 924958225116337
+    name: Persona
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: Alex
+      synonyms:
+      - alex
+    - keyword: Bro
+      synonyms:
+      - bro
+    - keyword: Dude
+      synonyms:
+      - dude
+  - witConfiguration: {fileID: 11400000}
+    id: 916637822303464
+    name: action
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - 
+    keywords:
+    - keyword: Breathe
+      synonyms:
+      - breathe
+    - keyword: breath
+      synonyms:
+      - breath
+  - witConfiguration: {fileID: 11400000}
     id: 578960189843498
     name: experience
     lookups:
@@ -34,7 +100,11 @@ MonoBehaviour:
     - keyword: ADHD
       synonyms:
       - adhd
+      - attention
+      - deficit
+      - disorder
       - experience
+      - hyperactivity
   intents:
   - witConfiguration: {fileID: 11400000}
     id: 233952922174932
@@ -43,6 +113,42 @@ MonoBehaviour:
     - witConfiguration: {fileID: 11400000}
       id: 593452628435723
       name: experience:experience
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 693289424911331
+    name: clear_head
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 432092605187056
+      name: Persona:Persona
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 217879317154007
+      name: action:action
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1150763238789598
+    name: end_experience
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 359996519293963
+      name: End:End
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 719518959440347
+    name: stop_noise
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 1032491524273398
+      name: Object:Object
       lookups: []
       roles: []
       keywords: []

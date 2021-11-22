@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1WMHH8673T1314",
     "m_SelectedPackage": {
-        "deviceId": "1WMHH8673T1314",
-        "name": "com.XRHackathonTeam.ADHDAwareness",
-        "processId": 22941,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,175 +11,43 @@
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 5817,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 6469,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 10812,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 12735,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4952,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 5492,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 11060,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 11689,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 12485,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 13330,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 13813,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 14226,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4786,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 5028,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 5341,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 6609,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 7048,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 7743,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 8807,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 9577,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 10131,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 19080,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 19438,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4011,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4471,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 19723,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 21123,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 21783,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 22941,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 25113,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.oculus.os.vrusb",
+            "processId": 23829,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.oculus.shellenv",
+            "processId": 1831,
             "exited": false
         }
     ],

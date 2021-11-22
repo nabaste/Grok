@@ -57,8 +57,8 @@ public class ExperienceManager : MonoBehaviour
         OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = !OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled;
     }
 
-    // public void onGame2Completed()
-    // {
-    //     Debug.Log("Game 2 completed");
-    // }
+    public void EndExperience()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
