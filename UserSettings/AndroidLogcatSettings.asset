@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHH8673T1314",
         "name": "com.XRHackathonTeam.ADHDAwareness",
-        "processId": 5065,
+        "processId": 4187,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,67 +11,61 @@
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 22941,
+            "processId": 6254,
             "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 25113,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.oculus.os.vrusb",
-            "processId": 23829,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.oculus.shellenv",
-            "processId": 1831,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 29188,
+            "processId": 6778,
             "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 30600,
+            "processId": 7721,
             "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 31978,
+            "processId": 9403,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 9845,
             "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.oculus.os.clearactivity",
-            "processId": 29462,
+            "processId": 5224,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.oculus.os.vrusb",
+            "processId": 4616,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.oculus.shellenv",
+            "processId": 1836,
             "exited": false
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 2943,
+            "processId": 11125,
             "exited": false
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4075,
-            "exited": false
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 5065,
+            "processId": 4187,
             "exited": false
         }
     ],

@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 // Show off all the Debug UI components.
 public class CTABuilder : MonoBehaviour
 {
-    bool inMenu;
+    public bool inMenu;
     private Text sliderText;
-    public GameObject ConfirmAudioSource, DenyAudioSource, CTAIMG;
+    public GameObject ConfirmAudioSource, DenyAudioSource;
     void Start()
     {
         // DebugUIBuilder.instance.AddLabel("The following experience is a fictional representation of the scenes associated with real life events experienced by some people with the mental condition. The experience is in no way intended to represent what it is like having the mental condition in the physical world or a means to find a solution to the problem of symptoms of the mental condition. It is simply a way to understand parts of the symptoms experienced during the mental condition better and to generate awareness and empathy in regards to those who have the mental condition. You have the option to end this experience anytime at your will by exiting the application or simply saying Unspace *app name*, to return to home.", 2);

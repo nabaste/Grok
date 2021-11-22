@@ -5,10 +5,10 @@ using UnityEngine.Events;
 
 namespace Oculus.Voice
 {
-    public class VoiceActivator : MonoBehaviour
+    public class VoiceActivatorScene1 : MonoBehaviour
     {
         [SerializeField] private AppVoiceExperience voiceController;
-        [SerializeField] private DisclaimerBuilder DisclaimerBuilder;
+        [SerializeField] private CTABuilder CTABuilder;
         void Start()
         {
 
@@ -23,7 +23,7 @@ namespace Oculus.Voice
 
             if (OVRInput.GetDown(OVRInput.Button.One)) 
             {
-                if(!DisclaimerBuilder.inMenu)
+                if(!CTABuilder.inMenu)
                 {
                     voiceController.Activate();
                 }

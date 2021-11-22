@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 // Show off all the Debug UI components.
 public class DisclaimerBuilder : MonoBehaviour
 {
-    bool inMenu;
+    public bool inMenu;
     private Text sliderText;
     public GameObject ConfirmAudioSource, DenyAudioSource, VoiceOverAudioSource, BKGAudioSource, DisclaimerIMG, TriggerWarningIMG;
     void Start()
