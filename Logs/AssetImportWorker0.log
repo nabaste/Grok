@@ -1082,3 +1082,1186 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+2021-11-22 12:56:10.956 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000028150 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 289.3 MB.
+System memory in use after: 289.2 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2901.
+Total: 4.043278 ms (FindLiveObjects: 0.311791 ms CreateObjectMapping: 0.110920 ms MarkObjects: 3.247450 ms  DeleteObjects: 0.372271 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+2021-11-22 12:58:00.476 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000021110 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 289.5 MB.
+System memory in use after: 289.4 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2904.
+Total: 4.698616 ms (FindLiveObjects: 0.310897 ms CreateObjectMapping: 0.116580 ms MarkObjects: 3.862886 ms  DeleteObjects: 0.407225 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+2021-11-22 12:58:58.772 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000002a1b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1370ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 289.6 MB.
+System memory in use after: 289.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2907.
+Total: 4.120806 ms (FindLiveObjects: 0.300676 ms CreateObjectMapping: 0.101982 ms MarkObjects: 3.317255 ms  DeleteObjects: 0.400019 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2338.101617 seconds.
+  path: Assets/Prefabs/AirHockey Variant.prefab
+  artifactKey: Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AirHockey Variant.prefab using Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '8f82f81e541c411ac4303c4bd16d626a') in 0.488933 seconds 
+  Import took 0.497509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.274506 seconds.
+  path: Assets/Prefabs/AlarmClock Variant.prefab
+  artifactKey: Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlarmClock Variant.prefab using Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dba277c51846f7f8f1d64f84b4b5265') in 0.057879 seconds 
+  Import took 0.064570 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+2021-11-22 13:01:46.456 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000015650 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.419 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1419ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1206ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 289.9 MB.
+System memory in use after: 289.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 4.947586 ms (FindLiveObjects: 0.308122 ms CreateObjectMapping: 0.115818 ms MarkObjects: 4.099714 ms  DeleteObjects: 0.422683 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 146.022585 seconds.
+  path: Assets/Prefabs/Backpack Variant.prefab
+  artifactKey: Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Backpack Variant.prefab using Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c01e318f11cfdfaed77898fd408feac9') in 0.198018 seconds 
+  Import took 0.203851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Prefabs/Arcade Variant.prefab
+  artifactKey: Guid(2baae699e8a6b405ea1040966c6270af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arcade Variant.prefab using Guid(2baae699e8a6b405ea1040966c6270af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '602affa12e0db5b802fc1096f95e8a8e') in 0.084095 seconds 
+  Import took 0.089591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529963 seconds.
+  path: Assets/Prefabs/baseball_ball_01 Variant.prefab
+  artifactKey: Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/baseball_ball_01 Variant.prefab using Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fb71bbb12b572af05a6bfe9c54b14598') in 0.368177 seconds 
+  Import took 0.374702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.386420 seconds.
+  path: Assets/Prefabs/Books Variant.prefab
+  artifactKey: Guid(8f9e44f0650e44cc78501002b103778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Books Variant.prefab using Guid(8f9e44f0650e44cc78501002b103778a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c5fdaad6e52330792267109b4e660362') in 0.319649 seconds 
+  Import took 0.324637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.030224 seconds.
+  path: Assets/Prefabs/AirHockey Variant.prefab
+  artifactKey: Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AirHockey Variant.prefab using Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'adc9504cb16220ea341357a628af8be1') in 0.330206 seconds 
+  Import took 0.337033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Prefabs/Backpack Variant.prefab
+  artifactKey: Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Backpack Variant.prefab using Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '66ddfa2aed74b2a14760ca79cf21b732') in 0.119508 seconds 
+  Import took 0.125455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Prefabs/darksaber Variant.prefab
+  artifactKey: Guid(6139c72fe2014402791ad4310753f471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/darksaber Variant.prefab using Guid(6139c72fe2014402791ad4310753f471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd78ceb8fc2dfdba96f6967fa675ba02f') in 0.292505 seconds 
+  Import took 0.298928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Prefabs/WaterBottle Variant.prefab
+  artifactKey: Guid(d9ec3a958c5244221b721926a0fb41ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WaterBottle Variant.prefab using Guid(d9ec3a958c5244221b721926a0fb41ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c39903e74b4c2b7adda0326bb482304c') in 0.385178 seconds 
+  Import took 0.391881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Prefabs/Notebook2 Variant.prefab
+  artifactKey: Guid(c557b4426d0174ff3a378243480fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Notebook2 Variant.prefab using Guid(c557b4426d0174ff3a378243480fdbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '30809e1aaf85c9bd3eee97ee2308559c') in 0.315229 seconds 
+  Import took 0.320697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Prefabs/SandtrooperVariant.prefab
+  artifactKey: Guid(99c768b49aa6a4f2a881ae4df97a3248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandtrooperVariant.prefab using Guid(99c768b49aa6a4f2a881ae4df97a3248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'deab135a391cd91f38ea2552eda61d13') in 0.074534 seconds 
+  Import took 0.081016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefabs/Arcade Variant.prefab
+  artifactKey: Guid(2baae699e8a6b405ea1040966c6270af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Arcade Variant.prefab using Guid(2baae699e8a6b405ea1040966c6270af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '759fb6ba734477134aeb9b1f0aab7f84') in 0.069281 seconds 
+  Import took 0.074939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Prefabs/SpaceInvader2 Variant.prefab
+  artifactKey: Guid(50fd0faa4deac43c2a98ffc345609ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpaceInvader2 Variant.prefab using Guid(50fd0faa4deac43c2a98ffc345609ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e497d1e3e6f7e2994e5036e3fc16843c') in 0.021298 seconds 
+  Import took 0.026839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefabs/AlarmClock Variant.prefab
+  artifactKey: Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlarmClock Variant.prefab using Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cce8746d34f892afb9f2c3c7372cbd') in 0.017595 seconds 
+  Import took 0.023547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefabs/FidgetSpinner Variant.prefab
+  artifactKey: Guid(f7a9961df076442bf9185c68ffbb7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FidgetSpinner Variant.prefab using Guid(f7a9961df076442bf9185c68ffbb7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817bfbff1610d188ca4b8e1da372223f') in 0.024289 seconds 
+  Import took 0.029773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Prefabs/Rift Variant.prefab
+  artifactKey: Guid(dd363d6bf6e404a5c87da3ae9911c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rift Variant.prefab using Guid(dd363d6bf6e404a5c87da3ae9911c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c4ca56f2b70f2b167854d3f25c68f5') in 0.015053 seconds 
+  Import took 0.020178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Pen Variant.prefab
+  artifactKey: Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pen Variant.prefab using Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0a0d030f70566ee4c1fb3d3bee002980') in 0.243954 seconds 
+  Import took 0.249751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Prefabs/baseball_ball_01 Variant.prefab
+  artifactKey: Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/baseball_ball_01 Variant.prefab using Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7f9b89377b0f79e99914e5eaaa770c75') in 0.364653 seconds 
+  Import took 0.369911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Prefabs/FritzOpener Variant.prefab
+  artifactKey: Guid(87dcd005172cc41ce9bb1d009cb2b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FritzOpener Variant.prefab using Guid(87dcd005172cc41ce9bb1d009cb2b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e8905b20845440a2b8905ef7dd545334') in 0.124230 seconds 
+  Import took 0.129778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Prefabs/KeyCard Variant.prefab
+  artifactKey: Guid(fe84374e332a8421b985d8a58733623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/KeyCard Variant.prefab using Guid(fe84374e332a8421b985d8a58733623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747984ea06fe21718f7fccf8af33445e') in 0.111968 seconds 
+  Import took 0.116942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Prefabs/Pen Holder Variant.prefab
+  artifactKey: Guid(3b6f6a538a56f49428c139fbff62f1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pen Holder Variant.prefab using Guid(3b6f6a538a56f49428c139fbff62f1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ebd774d5eed69c596926eb922d0ae8ba') in 0.215260 seconds 
+  Import took 0.222354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Prefabs/Notebook Variant.prefab
+  artifactKey: Guid(426943a1825d14041a6f82b468302dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Notebook Variant.prefab using Guid(426943a1825d14041a6f82b468302dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'edcefba1aa89acaef204e8ec03ed8784') in 0.253174 seconds 
+  Import took 0.259711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefabs/SpaceInvaderVariant.prefab
+  artifactKey: Guid(ae429d55ffa3943b2a9f1a6a2aa33978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpaceInvaderVariant.prefab using Guid(ae429d55ffa3943b2a9f1a6a2aa33978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a937a025caad59ee5d1a1b84b6b869d') in 0.015268 seconds 
+  Import took 0.020609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Prefabs/PacmanGhostBlue Variant.prefab
+  artifactKey: Guid(704f449d0e6f742c3be296a25c68fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PacmanGhostBlue Variant.prefab using Guid(704f449d0e6f742c3be296a25c68fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689b5f418e3b74088345a9cd0384a440') in 0.046507 seconds 
+  Import took 0.053737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefabs/PacmanGhostOrange Variant.prefab
+  artifactKey: Guid(96a035c01c00744c1a4879279aaa3c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PacmanGhostOrange Variant.prefab using Guid(96a035c01c00744c1a4879279aaa3c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588f874a1dafc016ce001d6532745073') in 0.033348 seconds 
+  Import took 0.037738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+2021-11-22 13:04:40.013 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000036bf00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1177ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.2 MB.
+System memory in use after: 290.1 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 4.148118 ms (FindLiveObjects: 0.304222 ms CreateObjectMapping: 0.099516 ms MarkObjects: 3.270781 ms  DeleteObjects: 0.472544 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+2021-11-22 13:05:02.773 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000029340 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1336ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1154ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.4 MB.
+System memory in use after: 290.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 3.833366 ms (FindLiveObjects: 0.293952 ms CreateObjectMapping: 0.111621 ms MarkObjects: 3.063254 ms  DeleteObjects: 0.363676 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+2021-11-22 13:09:37.192 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000005880 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1470ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.6 MB.
+System memory in use after: 290.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2921.
+Total: 4.359506 ms (FindLiveObjects: 0.591497 ms CreateObjectMapping: 0.176308 ms MarkObjects: 3.187192 ms  DeleteObjects: 0.403444 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 420.177165 seconds.
+  path: Assets/Prefabs/AlarmClock Variant.prefab
+  artifactKey: Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlarmClock Variant.prefab using Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8740391d85d2dec2aebe06e14556f19') in 0.095151 seconds 
+  Import took 0.100322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.971982 seconds.
+  path: Assets/Audio/Noises/scribbling.mp3
+  artifactKey: Guid(8efa0848b942d4607b2dcaa84050575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Noises/scribbling.mp3 using Guid(8efa0848b942d4607b2dcaa84050575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e6c2ed8dcef391310d8c4d306a7957') in 0.033279 seconds 
+  Import took 0.039730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.803088 seconds.
+  path: Assets/Audio/Noises/ScribblePen.mp3
+  artifactKey: Guid(eee392bfcf383466ea26d32e36d2dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Noises/ScribblePen.mp3 using Guid(eee392bfcf383466ea26d32e36d2dce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd360aadd7c8b2c31bbca7622a886ba1f') in 0.030449 seconds 
+  Import took 0.036362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.970184 seconds.
+  path: Assets/Prefabs/Pen Variant.prefab
+  artifactKey: Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pen Variant.prefab using Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '372d8468a2c7135c86d08832ccccb6f8') in 0.300790 seconds 
+  Import took 0.308451 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+2021-11-22 13:18:20.890 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000002ae0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1587ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1378ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.4 MB.
+System memory in use after: 290.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2925.
+Total: 4.194533 ms (FindLiveObjects: 0.523094 ms CreateObjectMapping: 0.163425 ms MarkObjects: 3.033790 ms  DeleteObjects: 0.473008 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 215.174152 seconds.
+  path: Assets/Prefabs/AirHockey Variant.prefab
+  artifactKey: Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AirHockey Variant.prefab using Guid(d97157f1e89694245a43f32048d91852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c3695a76ca7d49cf8c555a0b432ec50c') in 0.396192 seconds 
+  Import took 0.400991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.926438 seconds.
+  path: Assets/Prefabs/AlarmClock Variant.prefab
+  artifactKey: Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlarmClock Variant.prefab using Guid(b122d34ec103643038a6337e52b07057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e75b9d53587694bef33d7e0cd0b35a') in 0.031143 seconds 
+  Import took 0.036695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.629477 seconds.
+  path: Assets/Prefabs/Pen Variant.prefab
+  artifactKey: Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pen Variant.prefab using Guid(c6fc2ee7ebfad4d8692d75695d30d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1f0342e075ce06268a524d94516f1115') in 0.251411 seconds 
+  Import took 0.257488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.313385 seconds.
+  path: Assets/Prefabs/PacmanGhostOrange Variant.prefab
+  artifactKey: Guid(96a035c01c00744c1a4879279aaa3c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PacmanGhostOrange Variant.prefab using Guid(96a035c01c00744c1a4879279aaa3c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba9d3a69dcfcbf01025e4aa17d50f10') in 0.069258 seconds 
+  Import took 0.074539 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+2021-11-22 13:24:32.735 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000002a70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1268ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.9 MB.
+System memory in use after: 290.8 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2929.
+Total: 3.976779 ms (FindLiveObjects: 0.293006 ms CreateObjectMapping: 0.104033 ms MarkObjects: 3.199479 ms  DeleteObjects: 0.379326 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 193.485615 seconds.
+  path: Assets/Prefabs/SpaceInvader2 Variant.prefab
+  artifactKey: Guid(50fd0faa4deac43c2a98ffc345609ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpaceInvader2 Variant.prefab using Guid(50fd0faa4deac43c2a98ffc345609ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22c37d3993a771ae722e7121538a854') in 0.095708 seconds 
+  Import took 0.100630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.715773 seconds.
+  path: Assets/Prefabs/Pen Holder Variant.prefab
+  artifactKey: Guid(3b6f6a538a56f49428c139fbff62f1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pen Holder Variant.prefab using Guid(3b6f6a538a56f49428c139fbff62f1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2ae089f5217ef25a37c1fa7ba8b600d2') in 0.234178 seconds 
+  Import took 0.241099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.313407 seconds.
+  path: Assets/Prefabs/Backpack Variant.prefab
+  artifactKey: Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Backpack Variant.prefab using Guid(154b4e3bbcd1844e39caec56572682d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '973984662eb1a1dd101829f6d4da94c7') in 0.091441 seconds 
+  Import took 0.096114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.791538 seconds.
+  path: Assets/Prefabs/baseball_ball_01 Variant.prefab
+  artifactKey: Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/baseball_ball_01 Variant.prefab using Guid(bce8bda53da7248a38f5ed877ca79716) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c9a1eabcb4765a986b24d31482bd65e1') in 0.348426 seconds 
+  Import took 0.353208 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+2021-11-22 13:35:05.038 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000002ca10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1330ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 291.2 MB.
+System memory in use after: 291.1 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2933.
+Total: 3.978597 ms (FindLiveObjects: 0.274354 ms CreateObjectMapping: 0.099096 ms MarkObjects: 3.208033 ms  DeleteObjects: 0.396127 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 21.99 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.2 MB.
+System memory in use after: 253.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2933.
+Total: 6.889787 ms (FindLiveObjects: 0.461222 ms CreateObjectMapping: 0.146988 ms MarkObjects: 5.690719 ms  DeleteObjects: 0.589264 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+2021-11-22 13:44:48.788 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000000cee0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1576ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 291.4 MB.
+System memory in use after: 291.3 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2936.
+Total: 4.030244 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.109019 ms MarkObjects: 3.196290 ms  DeleteObjects: 0.398672 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+2021-11-22 13:46:29.877 Unity[6711:233782] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000007560 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1653ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1466ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (502ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
+Unloading 2280 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 291.6 MB.
+System memory in use after: 291.5 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2939.
+Total: 5.500901 ms (FindLiveObjects: 0.622748 ms CreateObjectMapping: 0.191405 ms MarkObjects: 4.188543 ms  DeleteObjects: 0.496541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 25.44 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.6 MB.
+System memory in use after: 253.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2939.
+Total: 4.549743 ms (FindLiveObjects: 0.383559 ms CreateObjectMapping: 0.078154 ms MarkObjects: 3.582844 ms  DeleteObjects: 0.503958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

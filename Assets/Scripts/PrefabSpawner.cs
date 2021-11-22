@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PrefabSpawner : MonoBehaviour
 {
-    public GameObject AirHockey, AlarmClock, Arcade, Backpack, Baseball, Books, CocaCola, Darksaber, Fidget, Opener, Keycard, Notebook, Notebook2, PacmanBlue, PacmanOrange, PenHolder, Pen, Rift, Sandtrooper, SpaceInvader1, SpaceInvader2, SpaceInvader2D, WaterBottle;
+    // public GameObject AirHockey, AlarmClock, Arcade, Backpack, Baseball, Books, CocaCola, Darksaber, Fidget, Opener, Keycard, Notebook, Notebook2, PacmanBlue, PacmanOrange, PenHolder, Pen, Rift, Sandtrooper, SpaceInvader1, SpaceInvader2, SpaceInvader2D, WaterBottle;
     public GameObject[] elements;
     private float XRangeLow = -2.5f;
     private float XRangeHigh = 2.5f;
@@ -15,6 +15,7 @@ public class PrefabSpawner : MonoBehaviour
     private bool isInFront;
     private float isInFrontDecider;
     private Quaternion iniRot = new Quaternion(0.3f, 0.4f, 0.2f, 0.7f);
+    public GameObject prefabContainer;
     void Awake()
     {
         // isInFrontDecider = Random.Range(-1f, 1f);
@@ -25,7 +26,7 @@ public class PrefabSpawner : MonoBehaviour
         foreach(GameObject element in elements)
         {
             // Object.Instantiate(element, returnRandomPos(), iniRot);
-            Object.Instantiate(element);
+            Object.Instantiate(element, prefabContainer.transform);
         }
     }   
 

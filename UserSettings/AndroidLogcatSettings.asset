@@ -1,31 +1,13 @@
 {
     "m_SelectedDeviceId": "1WMHH8673T1314",
     "m_SelectedPackage": {
-        "deviceId": "1WMHH8673T1314",
-        "name": "com.XRHackathonTeam.ADHDAwareness",
-        "processId": 30600,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 19723,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 21123,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 21783,
-            "exited": true
-        },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
@@ -54,12 +36,24 @@
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 29188,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
             "processId": 30600,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 31978,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.oculus.os.clearactivity",
+            "processId": 29462,
             "exited": false
         }
     ],

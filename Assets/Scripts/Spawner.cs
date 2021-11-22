@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
     private float ZRangeGapHigh = 0.5f;
     private float ZRangeHigh = 2.5f;
     private float YRangeHigh = 1f;
-    private float YRangeLow = -2f;
+    private float YRangeLow = -1f;
     private int Ydirection = 1;
     private Quaternion iniRot = new Quaternion(0.3f, 0.4f, 0.2f, 0.7f);
     private Vector3 iniPos = new Vector3(0.1f, 0.3f, 0.4f);

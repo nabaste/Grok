@@ -14,6 +14,7 @@ public class ExperienceManager : MonoBehaviour
     private float game1Length = 90;
     private float failSoundLength = 3;
     private float clearHeadLength = 3;
+    private float finalCubeInteractionLength = 5;
 
     void Start()
     {
@@ -25,9 +26,10 @@ public class ExperienceManager : MonoBehaviour
         if (g2m.isCompleted)
         {
             onGame2Completed.Invoke(); //lo tengo que llamar una sola vez
+            StartCoroutine(waitForFinalCubeInteraction());
             if (gcrt.isRotated)
             {
-                onCubeRotated.Invoke(); //same
+                // onCubeRotated.Invoke();
             }
         };
 
@@ -58,6 +60,11 @@ public class ExperienceManager : MonoBehaviour
         onClearHead.Invoke();
         yield return new WaitForSeconds(clearHeadLength);
         onClearHeadFinish.Invoke();
+    }
+    IEnumerator waitForFinalCubeInteraction()
+    {
+        yield return new WaitForSeconds(finalCubeInteractionLength);
+        onCubeRotated.Invoke();
     }
     public void BreathingPassthroughCycle()
     {
