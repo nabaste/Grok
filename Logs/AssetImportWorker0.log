@@ -903,3 +903,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181.870507 seconds.
+  path: Assets/Prefabs/GameCube Variant 1.prefab
+  artifactKey: Guid(675267d5174ff438daf9bcdc4f659a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameCube Variant 1.prefab using Guid(675267d5174ff438daf9bcdc4f659a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12138ef91a7c0193888099f6d6808a15') in 0.081787 seconds 
+  Import took 0.087765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.295680 seconds.
+  path: Assets/Scenes/Home.unity
+  artifactKey: Guid(663a79e81f0f14e23b08a147e4db4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home.unity using Guid(663a79e81f0f14e23b08a147e4db4743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84089ece32fb73d6f4f033cffe30dd') in 0.007463 seconds 
+  Import took 0.012759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.964754 seconds.
+  path: Assets/Scenes/Scene1.unity
+  artifactKey: Guid(07506bbf503474421a2976cdac35abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1.unity using Guid(07506bbf503474421a2976cdac35abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c87b80e7ef9edc3b4e11399f273b485') in 0.006954 seconds 
+  Import took 0.011746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.755466 seconds.
+  path: Assets/Scene1Modified.unity
+  artifactKey: Guid(fafedc437587e4239b73cbdd06ce06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene1Modified.unity using Guid(fafedc437587e4239b73cbdd06ce06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eca12e20ae86938c2815393e43137b') in 0.008800 seconds 
+  Import took 0.013722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.359610 seconds.
+  path: Assets/Scene1Original.unity
+  artifactKey: Guid(fafedc437587e4239b73cbdd06ce06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scene1Original.unity using Guid(fafedc437587e4239b73cbdd06ce06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c943d1ebe66dc16f2a20121c4875714') in 0.003825 seconds 
+  Import took 0.008867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.486747 seconds.
+  path: Assets/Scenes/Scene1OVRPlayerController.unity
+  artifactKey: Guid(8aa3f54c18b274594a3ce2ceec31e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene1OVRPlayerController.unity using Guid(8aa3f54c18b274594a3ce2ceec31e4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfee2366a049c503663e55bdad003f3') in 0.008964 seconds 
+  Import took 0.014695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+2021-11-22 19:37:33.786 Unity[7337:82705] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001caeca0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1290ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1108ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (422ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Unloading 2282 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.0 MB.
+System memory in use after: 249.9 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 3.829587 ms (FindLiveObjects: 0.277634 ms CreateObjectMapping: 0.117448 ms MarkObjects: 3.068178 ms  DeleteObjects: 0.365389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.13 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.37 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.1 MB.
+System memory in use after: 212.0 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2855.
+Total: 5.472943 ms (FindLiveObjects: 0.309679 ms CreateObjectMapping: 0.179578 ms MarkObjects: 4.438698 ms  DeleteObjects: 0.543156 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
