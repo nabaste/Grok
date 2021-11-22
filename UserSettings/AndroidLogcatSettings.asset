@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1WMHH8673T1314",
     "m_SelectedPackage": {
-        "deviceId": "1WMHH8673T1314",
-        "name": "com.XRHackathonTeam.ADHDAwareness",
-        "processId": 4187,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,62 +11,44 @@
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 6254,
+            "processId": 6262,
             "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 6778,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 7721,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 9403,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 9845,
-            "exited": true
-        },
-        {
-            "deviceId": "1WMHH8673T1314",
-            "name": "com.oculus.os.clearactivity",
-            "processId": 5224,
-            "exited": false
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.oculus.os.vrusb",
-            "processId": 4616,
+            "processId": 1692,
             "exited": false
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.oculus.shellenv",
-            "processId": 1836,
+            "processId": 3082,
             "exited": false
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 11125,
-            "exited": false
+            "processId": 7836,
+            "exited": true
         },
         {
             "deviceId": "1WMHH8673T1314",
             "name": "com.XRHackathonTeam.ADHDAwareness",
-            "processId": 4187,
-            "exited": false
+            "processId": 8348,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 9682,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 10567,
+            "exited": true
         }
     ],
     "m_Tags": {

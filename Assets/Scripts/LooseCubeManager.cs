@@ -23,6 +23,7 @@ public class LooseCubeManager : MonoBehaviour
         {
             isOnPosition = true;
             onPosition.Invoke();
+            Debug.Log("positioned");
         }
     }
 }
