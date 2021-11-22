@@ -26,10 +26,10 @@ public class Spawner : MonoBehaviour
     {
         rb.AddForce(0f, Ydirection * 0.02f, 0f, ForceMode.Impulse);
         rb.AddTorque(iniTor, ForceMode.Impulse);
-        reevaluateDirection();
+        ReevaluateDirection();
     }
 
-    void reevaluateDirection()
+    void ReevaluateDirection()
     {
         if(transform.position.y >= YRangeHigh)
         {

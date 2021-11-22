@@ -34,7 +34,7 @@ public class ExperienceManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void togglePassthrough()
+    public void TogglePassthrough()
     {
         OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = !OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled;
     }

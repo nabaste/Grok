@@ -22,15 +22,15 @@ public class GameCubeRotationTracker : MonoBehaviour
     void Update()
     {   
         // percentangeOfDesiredRotationAchieved = transform.rotation; //matemáticaloca
-        checkRotation();
-        interpolateMaterials(percentangeOfDesiredRotationAchieved);
+        CheckRotation();
+        InterpolateMaterials(percentangeOfDesiredRotationAchieved);
     }
-    void checkRotation()
+    void CheckRotation()
     {
         if(transform.rotation == desiredRotation) isRotated = true; //add threshhold
     }
 
-    void interpolateMaterials(float percentage)
+    void InterpolateMaterials(float percentage)
     {
 
     }

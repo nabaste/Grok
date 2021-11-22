@@ -33,7 +33,7 @@ public class PrefabSpawner : MonoBehaviour
     {
     }
 
-    Vector3 returnRandomPos()
+    Vector3 ReturnRandomPos()
     {
         var x = Random.Range(XRangeLow, XRangeLow);
         var z = isInFront ? Random.Range(ZRangeGapHigh, ZRangeHigh) : Random.Range(ZRangeLow, ZRangeGapLow);

@@ -21,32 +21,32 @@ public class Game2Manager : MonoBehaviour
     }
     void Update()
     {
-        if (!isCompleted) checkPositions();
+        if (!isCompleted) CheckPositions();
     }
-    void checkPositions()
+    void CheckPositions()
     {
         if (matches == 3) isCompleted = true;
 
     }
-    void snapIntoPosition(GameObject cube, Vector3 iniPos)
+    void SnapIntoPosition(GameObject cube, Vector3 iniPos)
     {
         cube.transform.position = iniPos;
         cube.transform.rotation = iniRot;
     }
 
-    public void onGreenPositioned()
+    public void OnGreenPositioned()
     {
-        snapIntoPosition(greenLoose, greenIniPos);
+        SnapIntoPosition(greenLoose, greenIniPos);
         matches++;
     }
-    public void onRedPositioned()
+    public void OnRedPositioned()
     {
-        snapIntoPosition(redLoose, redIniPos);
+        SnapIntoPosition(redLoose, redIniPos);
         matches++;
     }
-    public void onYellowPositioned()
+    public void OnYellowPositioned()
     {
-        snapIntoPosition(yellowLoose, yellowIniPos);
+        SnapIntoPosition(yellowLoose, yellowIniPos);
         matches++;
     }
 }
