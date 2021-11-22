@@ -11,10 +11,10 @@ public class ExperienceManager : MonoBehaviour
     public GameCubeRotationTracker gcrt;
     public UnityEvent onIntroCompleted, onGame1Completed, onGame2Completed, onCubeRotated, onClearHead, onClearHeadFinish;
     private float introLength = 45;
-    private float game1Length = 90;
+    private float game1Length = 100;
     private float failSoundLength = 3;
     private float clearHeadLength = 3;
-    private float finalCubeInteractionLength = 5;
+    private float finalCubeInteractionLength = 10;
 
     void Start()
     {
@@ -78,13 +78,9 @@ public class ExperienceManager : MonoBehaviour
     {
         OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = true;
     }
-    // public void ClosePassthrough()
-    // {
-    //     OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = false;
-    // }
 
-    // public void EndExperience()
-    // {
-    //     SceneManager.LoadScene(1);
-    // }
+    public void EndExperience()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

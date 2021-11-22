@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         rb.AddForce(0f, Ydirection * 0.02f, 0f, ForceMode.Impulse);
         rb.AddTorque(iniTor, ForceMode.Impulse);
@@ -39,4 +39,9 @@ public class Spawner : MonoBehaviour
             Ydirection = 1;
         }
     } 
+    private void OnTriggerEnter(Collider other)
+    {
+        gameObject.GetComponent<AudioSource>().Stop();
+    }
+
 }
