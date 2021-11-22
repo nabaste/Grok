@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1WMHH8673T1314",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "1WMHH8673T1314",
+        "name": "com.XRHackathonTeam.ADHDAwareness",
+        "processId": 5065,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,24 @@
             "deviceId": "1WMHH8673T1314",
             "name": "com.oculus.os.clearactivity",
             "processId": 29462,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 2943,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 4075,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 5065,
             "exited": false
         }
     ],

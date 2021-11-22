@@ -906,7 +906,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d1751fa2b8f54cc6995945adf01bb3d, type: 2}
+  - {fileID: 2100000, guid: bf9c831e9cf0c49d3b9f4db1991a2e28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1175,7 +1175,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d1751fa2b8f54cc6995945adf01bb3d, type: 2}
+  - {fileID: 2100000, guid: 8f72305ebf7fb4f7c8bc7923764456b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2271,6 +2271,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 882084044286689322, guid: e1be458a0134f467bb2e6ad70626b4c5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 79ad9691e9e8045339a663738c21db1b, type: 3}
     - target: {fileID: 882084044831689958, guid: e1be458a0134f467bb2e6ad70626b4c5, type: 3}
       propertyPath: playerHeadCamera
       value: 
