@@ -33,7 +33,10 @@ MonoBehaviour:
     keywords:
     - keyword: Grok
       synonyms:
+      - groc
+      - grock
       - grok
+      - groque
   - witConfiguration: {fileID: 11400000}
     id: 931843190750967
     name: Object

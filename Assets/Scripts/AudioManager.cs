@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public GameObject VO1, VO2, VO3, VO4, Coke;
+    private float initialLoadingTime = 8;
     private float VO1Duration = 29;
     private float VO2Duration = 20;
     private float VO3Duration = 49;
@@ -12,13 +13,18 @@ public class AudioManager : MonoBehaviour
 
     void Start()
     {
-        FirstSounds();
+        StartCoroutine(waitForLoading());
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+    IEnumerator waitForLoading()
+    {
+        yield return new WaitForSeconds(initialLoadingTime);
+        FirstSounds();
     }
     IEnumerator waitForVO2()
     {

@@ -9,9 +9,11 @@ public class ExperienceManager : MonoBehaviour
     public GameObject OVRCamera;
     public Game2Manager g2m;
     public GameCubeRotationTracker gcrt;
-    public UnityEvent onIntroCompleted, onGame1Completed, onGame2Completed, onCubeRotated;
-    private float introLength = 35;
+    public UnityEvent onIntroCompleted, onGame1Completed, onGame2Completed, onCubeRotated, onClearHead, onClearHeadFinish;
+    private float introLength = 45;
     private float game1Length = 90;
+    private float failSoundLength = 3;
+    private float clearHeadLength = 3;
 
     void Start()
     {
@@ -39,26 +41,43 @@ public class ExperienceManager : MonoBehaviour
         Debug.Log("Finished intro at: " + Time.time);
         StartCoroutine(Game1InProgress());
     }
-        IEnumerator Game1InProgress()
+    IEnumerator Game1InProgress()
     {
         Debug.Log("Started game1 at: " + Time.time);
         yield return new WaitForSeconds(game1Length);
         onGame1Completed.Invoke();
         Debug.Log("Finished game1 at: " + Time.time);
     }
-
-    public void RestartScene()
+    IEnumerator waitForFailSound()
     {
+        yield return new WaitForSeconds(failSoundLength);
         SceneManager.LoadScene(1);
     }
-
-    public void TogglePassthrough()
+    IEnumerator clearHead()
     {
-        OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = !OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled;
+        onClearHead.Invoke();
+        yield return new WaitForSeconds(clearHeadLength);
+        onClearHeadFinish.Invoke();
     }
-
-    public void EndExperience()
+    public void BreathingPassthroughCycle()
     {
-        SceneManager.LoadScene(0);
+        StartCoroutine(clearHead());
     }
+    public void RestartScene()
+    {
+        StartCoroutine(waitForFailSound());
+    }
+    public void OpenPassthrough()
+    {
+        OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = true;
+    }
+    // public void ClosePassthrough()
+    // {
+    //     OVRCamera.GetComponent<OVRManager>().isInsightPassthroughEnabled = false;
+    // }
+
+    // public void EndExperience()
+    // {
+    //     SceneManager.LoadScene(1);
+    // }
 }

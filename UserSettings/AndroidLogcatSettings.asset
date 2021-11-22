@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "1WMHH8673T1314",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "1WMHH8673T1314",
+        "name": "com.XRHackathonTeam.ADHDAwareness",
+        "processId": 30600,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,18 @@
             "deviceId": "1WMHH8673T1314",
             "name": "com.oculus.shellenv",
             "processId": 1831,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 29188,
+            "exited": false
+        },
+        {
+            "deviceId": "1WMHH8673T1314",
+            "name": "com.XRHackathonTeam.ADHDAwareness",
+            "processId": 30600,
             "exited": false
         }
     ],
