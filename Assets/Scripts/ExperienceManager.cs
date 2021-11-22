@@ -8,7 +8,6 @@ public class ExperienceManager : MonoBehaviour
 {
     public GameObject OVRCamera;
     public Game2Manager g2m;
-    public GameCubeRotationTracker gcrt;
     public UnityEvent onIntroCompleted, onGame1Completed, onGame2Completed, onCubeRotated, onClearHead, onClearHeadFinish;
     private float introLength = 45;
     private float game1Length = 100;
@@ -25,12 +24,8 @@ public class ExperienceManager : MonoBehaviour
     {
         if (g2m.isCompleted)
         {
-            onGame2Completed.Invoke(); //lo tengo que llamar una sola vez
+            onGame2Completed.Invoke(); 
             StartCoroutine(waitForFinalCubeInteraction());
-            if (gcrt.isRotated)
-            {
-                // onCubeRotated.Invoke();
-            }
         };
 
     }

@@ -296,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2249696737697833883, guid: 23529ccf86d7b44649981ab503130197, type: 3}
       propertyPath: m_Name
-      value: GameCube
+      value: GameCubeFTW
       objectReference: {fileID: 0}
     - target: {fileID: 2249696737697833883, guid: 23529ccf86d7b44649981ab503130197, type: 3}
       propertyPath: m_IsActive
@@ -458,19 +458,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04, y: 0.04, z: 0.04}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3104701215968458476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326766672872796806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64be00abbd8254332a1e4065ee713777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRotated: 0
 --- !u!54 &2036926547408497814
 Rigidbody:
   m_ObjectHideFlags: 0
