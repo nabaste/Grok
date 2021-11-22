@@ -23,33 +23,6 @@ MonoBehaviour:
   clientAccessToken: BT5DRBACC4JUR7LIAZ5E6ABJIBBH3IJT
   entities:
   - witConfiguration: {fileID: 11400000}
-    id: 1248096205657749
-    name: color
-    lookups:
-    - free-text
-    - keywords
-    roles:
-    - 
-    keywords:
-    - keyword: blue
-      synonyms:
-      - blue
-    - keyword: green
-      synonyms:
-      - green
-    - keyword: purple
-      synonyms:
-      - purple
-    - keyword: red
-      synonyms:
-      - red
-    - keyword: white
-      synonyms:
-      - white
-    - keyword: yellow
-      synonyms:
-      - yellow
-  - witConfiguration: {fileID: 11400000}
     id: 578960189843498
     name: experience
     lookups:
@@ -60,47 +33,17 @@ MonoBehaviour:
     keywords:
     - keyword: ADHD
       synonyms:
-      - ADHD
-  - witConfiguration: {fileID: 11400000}
-    id: 631257908249992
-    name: shape
-    lookups:
-    - free-text
-    - keywords
-    roles:
-    - 
-    keywords:
-    - keyword: capsule
-      synonyms:
-      - capsule
-    - keyword: cube
-      synonyms:
-      - cube
-    - keyword: cylinder
-      synonyms:
-      - cylinder
-    - keyword: sphere
-      synonyms:
-      - sphere
+      - adhd
+      - experience
   intents:
-  - witConfiguration: {fileID: 11400000}
-    id: 2783362428622921
-    name: change_color
-    entities:
-    - witConfiguration: {fileID: 11400000}
-      id: 590565322215665
-      name: color:color
-      lookups: []
-      roles: []
-      keywords: []
-    - witConfiguration: {fileID: 11400000}
-      id: 618955652875715
-      name: shape:shape
-      lookups: []
-      roles: []
-      keywords: []
   - witConfiguration: {fileID: 11400000}
     id: 233952922174932
     name: choose_experience
-    entities: []
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 593452628435723
+      name: experience:experience
+      lookups: []
+      roles: []
+      keywords: []
   traits: []
