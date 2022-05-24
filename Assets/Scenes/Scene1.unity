@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 253423281}
-  m_IndirectSpecularColor: {r: 0.0011083329, g: 0.0030396127, b: 0.0023919574, a: 1}
+  m_IndirectSpecularColor: {r: 0.0011351202, g: 0.0031264166, b: 0.0022876433, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1363,11 +1363,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: enableMixedReality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: _trackingOriginType
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: isInsightPassthroughEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: expandMixedRealityCapturePropertySheet
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1054112583220142, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -2670,7 +2678,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876558772}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 555725d48e9051a4bb6b8d45178c2fdd, type: 3}
   m_Name: 
@@ -4685,6 +4693,12 @@ MonoBehaviour:
     OnError:
       m_PersistentCalls:
         m_Calls: []
+    OnAborted:
+      m_PersistentCalls:
+        m_Calls: []
+    OnRequestCompleted:
+      m_PersistentCalls:
+        m_Calls: []
     OnMicLevelChanged:
       m_PersistentCalls:
         m_Calls: []
@@ -4742,6 +4756,12 @@ MonoBehaviour:
     OnFullTranscription:
       m_PersistentCalls:
         m_Calls: []
+    OnByteDataReady:
+      m_PersistentCalls:
+        m_Calls: []
+    OnByteDataSent:
+      m_PersistentCalls:
+        m_Calls: []
   witRuntimeConfiguration:
     witConfiguration: {fileID: 11400000, guid: 009ccce518c7b4db3afedd2be9b23562, type: 2}
     minKeepAliveVolume: 0.0005
@@ -4753,6 +4773,7 @@ MonoBehaviour:
     micBufferLengthInSeconds: 1
     sendAudioToWit: 1
     customTranscriptionProvider: {fileID: 0}
+    alwaysRecord: 0
 --- !u!114 &1719418084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6874,7 +6895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 10697540195659143, guid: f46276025778b4f2f94a0e0489ab9406, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 823545168650401597, guid: f46276025778b4f2f94a0e0489ab9406, type: 3}
       propertyPath: m_RootOrder
